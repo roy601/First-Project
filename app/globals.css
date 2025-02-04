@@ -16,5 +16,10 @@
 
 body {
   color: var(--foreground);
-  padding: 2rem;
+  
+}
+@layer base {
+  h1 {
+    @apply font-extrabold text-2xl mb-3;
+  }
 }
